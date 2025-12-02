@@ -17,5 +17,4 @@ def divide(a: float, b: float) -> float:
 
 
 def power(a: float, b: float) -> float:
-    """Berechnet a**b."""
-    return a ** b
+    return a * b
