@@ -1,8 +1,3 @@
-import os
-import sys
-
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-
 import pytest
 from app.calculator import add, subtract, multiply, divide
 
@@ -24,6 +19,5 @@ def test_divide():
 
 
 def test_divide_by_zero():
-    from pytest import raises
-    with raises(ValueError):
+    with pytest.raises(ValueError):
         divide(1, 0)
