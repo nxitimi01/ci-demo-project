@@ -24,4 +24,5 @@ def test_divide_by_zero():
 
 
 def test_power():
-    assert power(2, 3) == 8
+    from app.calculator import power
+    assert power(2, 3) == 8   # 2**3 = 8
