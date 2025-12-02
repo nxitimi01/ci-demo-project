@@ -21,3 +21,8 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(1, 0)
+from app.calculator import add, subtract, multiply, divide, power
+#                ↑ hier power zusätzlich importieren
+
+def test_power():
+    assert power(2, 3) == 8
