@@ -14,3 +14,8 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Division by zero is not allowed.")
     return a / b
+
+
+def power(a: float, b: float) -> float:
+    """Berechnet a**b."""
+    return a ** b
