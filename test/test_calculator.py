@@ -23,5 +23,5 @@ def test_divide_by_zero():
         divide(1, 0)
 
 
-def power(a: float, b: float) -> float:
-    return a ** b
+def test_power():
+    assert power(2, 3) == 8   # 2**3 = 8
