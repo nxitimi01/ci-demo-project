@@ -24,4 +24,4 @@ def test_divide_by_zero():
 
 
 def test_power():
-    assert power(2, 3) == 6   # 2**3 = 6
+    assert power(4, 3) == 12   # 4**3 = 12
